@@ -309,7 +309,7 @@ function App() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-8">
               <img
-                src="jpg.jpg"
+                src="/jpg.jpg"
                 alt="Breno Nunes"
                 className="w-48 h-48 rounded-full mx-auto mb-6 object-cover shadow-lg border-4 border-white"
               />
@@ -383,12 +383,12 @@ function App() {
         {/* Container das 2 Imagens EMPILHADAS (Lado Esquerdo) */}
         <div className="flex flex-col gap-6"> {/* flex-col para empilhar */}
           <img
-            src="exp.jpg"
+            src="/exp.jpg"
             alt="Minha experiência em logística"
             className="rounded-lg shadow-lg w-full h-auto"
           />
           <img
-            src="unilab.jpg" // Substitua pelo seu arquivo
+            src="/unilab.jpg" // Substitua pelo seu arquivo
             alt="Meu projeto de desenvolvimento"
             className="rounded-lg shadow-lg w-full h-auto border-2 border-blue-100"
           />

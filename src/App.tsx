@@ -46,8 +46,6 @@ function App() {
   useEffect(() => {
     const handleScroll = () => {
       setShowScrollTop(window.scrollY > 300);
-
-      // Update active section based on scroll position
       const sections = [
         "home",
         "sobre",
@@ -340,8 +338,8 @@ function App() {
                 Entrar em Contato
               </a>
               <a
-                href="/resume.pdf"
-                download="CV Breno Nunes.pdf" // Nome personalizado para o arquivo baixado
+                href="/CV Breno.pdf"
+                download="CV Breno Nunes.pdf"
                 className="flex items-center gap-2 bg-gray-800 text-white px-8 py-3 rounded-lg hover:bg-gray-900 transition-all duration-300 font-medium"
               >
                 <Download className="w-4 h-4" />
@@ -379,16 +377,16 @@ function App() {
       <h2 className="text-3xl font-bold text-center text-gray-900 mb-16">
         Sobre Mim
       </h2>
-      <div className="grid md:grid-cols-2 gap-12 items-start"> {/* items-start para alinhar no topo */}
-        {/* Container das 2 Imagens EMPILHADAS (Lado Esquerdo) */}
-        <div className="flex flex-col gap-6"> {/* flex-col para empilhar */}
+      <div className="grid md:grid-cols-2 gap-12 items-start"> {}
+        {}
+        <div className="flex flex-col gap-6"> {}
           <img
             src="/exp.jpg"
             alt="Minha experiência em logística"
             className="rounded-lg shadow-lg w-full h-auto"
           />
           <img
-            src="/unilab.jpg" // Substitua pelo seu arquivo
+            src="/unilab.jpg"
             alt="Meu projeto de desenvolvimento"
             className="rounded-lg shadow-lg w-full h-auto border-2 border-blue-100"
           />
@@ -663,7 +661,7 @@ function App() {
                     <span className="text-gray-700 font-medium">
                       {skill.name}
                     </span>
-                    {/* Percentual removido */}
+                    
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2">
                     <div

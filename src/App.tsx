@@ -97,21 +97,22 @@ function App() {
       github: "https://github.com/brenonun3s/despesa_facil.git",
       demo: "https://despesas-demo.onrender.com/login",
       image:
-        "https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://conteudos.xpi.com.br/wp-content/uploads/2020/06/controle-de-gastos-destaque.jpeg",
     },
     {
-      title: "Microserviços E-commerce",
+      title: "API de controle de Estoque",
       description:
-        "Arquitetura de microserviços para plataforma de e-commerce com alta disponibilidade",
-      tech: ["Java", "Quarkus", "MySQL", "Kubernetes"],
-      github: "#",
-      demo: "#",
+        "Api de Microserviços simples, onde para registrar um produto no estoque, consome uma outra api que verifica se o produto está disponível",
+      tech: ["Java", "Quarkus", "PostgreSQL", "Docker", "Supabase"],
+      github: "https://github.com/brenonun3s/ApiEntradaWebService",
+      demo: "https://apientradawebservice.onrender.com/swagger-ui/",
       image:
-        "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://tse1.explicit.bing.net/th/id/OIP.WZhyX5Frx-HqavT44QP1SQHaE0?rs=1&pid=ImgDetMain&o=7&rm=3",
     },
     {
       title: "API de Gestão de Tarefas e JWT",
-      description: "API de Gestão de Tarefas com Segurança e JWT",
+      description:
+        "API de Gestão de Tarefas com Segurança e JWT, permitindo cadastro de usuários e autenticação",
       tech: [
         "Java",
         "Spring Boot",
@@ -121,8 +122,7 @@ function App() {
         "Mapstruct",
         "FlyWay",
       ],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/brenonun3s/tasks_jwt",
       image:
         "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
@@ -321,10 +321,10 @@ function App() {
               Desenvolvedor Backend Java
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-12 leading-relaxed">
-              Desenvolvedor Backend especializado em Java e Spring Boot, com ampla
-              experiência em sistemas corporativos e logísticos. Focado em soluções
-              escaláveis, de alta performance e alinhadas às necessidades
-              empresariais.
+              Desenvolvedor Backend especializado em Java e Spring Boot, com
+              ampla experiência em sistemas corporativos e logísticos. Focado em
+              soluções escaláveis, de alta performance e alinhadas às
+              necessidades empresariais.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8">
               <a
@@ -341,6 +341,7 @@ function App() {
               </a>
               <a
                 href="/resume.pdf"
+                download="CV Breno Nunes.pdf" // Nome personalizado para o arquivo baixado
                 className="flex items-center gap-2 bg-gray-800 text-white px-8 py-3 rounded-lg hover:bg-gray-900 transition-all duration-300 font-medium"
               >
                 <Download className="w-4 h-4" />
@@ -371,21 +372,28 @@ function App() {
         </div>
       </section>
 
-      {/* Sobre Mim */}
-      <section id="sobre" className="py-20 bg-white">
-        <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-center text-gray-900 mb-16">
-              Sobre Mim
-            </h2>
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div>
-                <img
-                  src="exp.jpg"
-                  alt="Workspace"
-                  className="rounded-lg shadow-lg"
-                />
-              </div>
+{/* Sobre Mim */}
+<section id="sobre" className="py-20 bg-white">
+  <div className="container mx-auto px-6">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-center text-gray-900 mb-16">
+        Sobre Mim
+      </h2>
+      <div className="grid md:grid-cols-2 gap-12 items-start"> {/* items-start para alinhar no topo */}
+        {/* Container das 2 Imagens EMPILHADAS (Lado Esquerdo) */}
+        <div className="flex flex-col gap-6"> {/* flex-col para empilhar */}
+          <img
+            src="exp.jpg"
+            alt="Minha experiência em logística"
+            className="rounded-lg shadow-lg w-full h-auto"
+          />
+          <img
+            src="unilab.jpg" // Substitua pelo seu arquivo
+            alt="Meu projeto de desenvolvimento"
+            className="rounded-lg shadow-lg w-full h-auto border-2 border-blue-100"
+          />
+        </div>
+
               <div>
                 <p className="text-lg text-gray-600 leading-relaxed mb-6">
                   Sou um profissional com 7 anos de experiência em logística,

@@ -725,7 +725,7 @@ function App() {
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-8 flex items-center gap-2">
                 <Award className="w-6 h-6 text-blue-600" />
-                Certificações
+                Cursos Complementares
               </h3>
               <div className="space-y-6">
                 {certifications.map((cert, index) => (

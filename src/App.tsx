@@ -338,7 +338,7 @@ function App() {
                 Entrar em Contato
               </a>
               <a
-                href="/CV Breno.pdf"
+                href="/Breno Nunes dos Santos.pdf"
                 download="Breno Nunes dos Santos.pdf"
                 className="flex items-center gap-2 bg-gray-800 text-white px-8 py-3 rounded-lg hover:bg-gray-900 transition-all duration-300 font-medium"
               >

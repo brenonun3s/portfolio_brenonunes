@@ -339,7 +339,7 @@ function App() {
               </a>
               <a
                 href="/CV Breno.pdf"
-                download="CV Breno Nunes.pdf"
+                download="Breno Nunes dos Santos.pdf"
                 className="flex items-center gap-2 bg-gray-800 text-white px-8 py-3 rounded-lg hover:bg-gray-900 transition-all duration-300 font-medium"
               >
                 <Download className="w-4 h-4" />

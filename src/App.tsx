@@ -159,7 +159,7 @@ function App() {
       period: "08/2017 - 08/2023",
       location: "Espírito Santo - Presencial",
       description:
-        "Durante meu tempo na empresa, exerci diferentes funções estratégicas nos setores de Soluções, Expedição, Porta Paletes e Perdas e Danos, com atuação de cargos como Líder Operacional Jr - Assistente Operacional - Auxiliar Administrativo - EstagiarioDurante meu tempo na empresa, atuei em diferentes áreas estratégicas, incluindo os setores Operacional, Expedição, Porta Paletes e Perdas e Danos, exercendo funções como Líder Operacional Jr, Assistente Operacional, Auxiliar Administrativo e Estagiário.",
+        "Durante meu tempo na empresa, exerci diferentes funções estratégicas nos setores de Soluções, Expedição, Porta Paletes e Perdas e Danos, com atuação de cargos como Líder Operacional Jr - Assistente Operacional - Auxiliar Administrativo - Estagiario. Durante meu tempo na empresa, atuei em diferentes áreas estratégicas, incluindo os setores Operacional, Expedição, Porta Paletes e Perdas e Danos, exercendo funções como Líder Operacional Jr, Assistente Operacional, Auxiliar Administrativo e Estagiário.",
       achievements: [
         "Formação e capacitação de equipe multidisciplinar em boas práticas operacionais",
         "Melhoria da performance operacional com aplicação de Lean e implementação de 8 projetos Kaizen",
@@ -209,10 +209,10 @@ function App() {
 
   const education = [
     {
-      degree: "Tecnologia em Análise e Desenvolvimento de Sistemas",
+      degree: "Bacharelado em Sistemas de Informação",
       institution: "Unisales - Centro Universitário Salesiano",
-      period: "02/2024 - 07/2026",
-      status: "Em andamento",
+      period: "02/2024 - 12/2027",
+      status: "Em andamento - 4º período",
     },
     {
       degree: "Bacharelado em Administração de Empresas",

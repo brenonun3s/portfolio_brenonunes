@@ -307,7 +307,7 @@ function App() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-8">
               <img
-                src="/jpg.jpg"
+                src="/public/jpg.jpg"
                 alt="Breno Nunes"
                 className="w-48 h-48 rounded-full mx-auto mb-6 object-cover shadow-lg border-4 border-white"
               />

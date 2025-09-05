@@ -307,7 +307,7 @@ function App() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-8">
               <img
-                src="public/img_breno.jpg"
+                src="/img_breno.jpg"
                 alt="Breno Nunes"
                 className="w-48 h-48 rounded-full mx-auto mb-6 object-cover shadow-lg border-4 border-white"
               />
@@ -316,7 +316,7 @@ function App() {
               Breno Nunes
             </h1>
             <h2 className="text-2xl md:text-3xl text-blue-600 font-medium mb-8">
-              Desenvolvedor Backend Java
+              Desenvolvedor de Sistemas
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-12 leading-relaxed">
               Desenvolvedor Backend especializado em Java e Spring Boot, com
@@ -828,7 +828,7 @@ function App() {
         <div className="container mx-auto px-6">
           <div className="text-center">
             <h3 className="text-2xl font-bold mb-4">Breno Nunes</h3>
-            <p className="text-gray-400 mb-6">Desenvolvedor Backend Java</p>
+            <p className="text-gray-400 mb-6">Desenvolvedor</p>
             <div className="flex justify-center space-x-6 mb-8">
               <a
                 href="https://github.com/brenonun3s"
